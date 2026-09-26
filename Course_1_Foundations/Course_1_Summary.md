@@ -17,6 +17,13 @@ Bản tóm tắt này ghi lại các khái niệm cốt lõi, quy trình quản 
   * **I**nformed (Người được thông báo)
 * **Tài liệu dự án:** Luôn bắt đầu với Đề xuất dự án (Project Proposal) ghi rõ Mục tiêu, Cột mốc và Kết quả bàn giao (Deliverables).
 
+* | Giai đoạn (PACE) | Nhiệm vụ (Task) | Data Professional | Data Engineer | Project Manager | Stakeholder (Khách hàng) |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **Plan** | Lập Đề xuất dự án & Xác định mục tiêu | **C** | C | **R, A** | I |
+| **Analyze** | Thu thập, làm sạch & Khám phá dữ liệu | **R, A** | R | I | I |
+| **Construct** | Xây dựng thuật toán / Mô hình học máy | **R, A** | C | I | I |
+| **Execute** | Trình bày kết quả & Báo cáo điều hành | **R** | I | **A** | **C, I** |
+
 ## 3. Giao tiếp Chuyên nghiệp
 * **Lắng nghe chủ động:** Cố gắng hiểu quan điểm của người nói, xem xét mọi góc nhìn để nắm bắt chính xác yêu cầu bài toán.
 * **Nguyên tắc giao tiếp:** Xem xét kỹ đối tượng người nhận (Receiver). Chia nhỏ ý tưởng phức tạp, sử dụng ngôn ngữ trực tiếp, ngắn gọn và tránh lạm dụng thuật ngữ kỹ thuật khi nói chuyện với người không chuyên.
