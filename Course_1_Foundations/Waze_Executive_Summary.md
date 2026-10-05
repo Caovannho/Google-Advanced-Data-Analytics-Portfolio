@@ -5,21 +5,21 @@
 **Đơn vị:** Waze Data Team
 
 ## 1. Bối cảnh & Mục tiêu Dự án
-Waze hướng tới việc cung cấp trải nghiệm điều hướng an toàn và hiệu quả cho tài xế toàn cầu. Gần đây, ban lãnh đạo đã đặt ưu tiên cho việc cải thiện tỷ lệ giữ chân người dùng (User Retention). 
-Mục tiêu cốt lõi của dự án này là phát triển một **mô hình Machine Learning dự đoán tỷ lệ người dùng rời bỏ ứng dụng hàng tháng (Churn rate)**. Việc xác định sớm các phân khúc người dùng có nguy cơ rời bỏ cao sẽ giúp Waze chủ động triển khai các chiến dịch tương tác và ưu đãi đặc biệt để giữ chân họ.
+Mục tiêu cốt lõi của dự án là phát triển mô hình Machine Learning dự đoán tỷ lệ người dùng rời bỏ ứng dụng hàng tháng (Churn rate). Việc này giúp Waze chủ động giữ chân người dùng và thúc đẩy tăng trưởng doanh nghiệp.
 
-## 2. Các bên liên quan (Stakeholders)
-* **Harriet Hadzic** (Giám đốc Phân tích Dữ liệu) & **May Santner** (Quản lý Phân tích Dữ liệu): Phê duyệt kết quả định hướng và mô hình dự đoán.
-* **Sylvester Esperanza** (Quản lý Dự án Cấp cao): Theo dõi tiến độ và các cột mốc dự án.
-* **Chidi Ga** (Nhà phân tích dữ liệu cao cấp): Hỗ trợ kỹ thuật và đánh giá quy trình Phân tích Dữ liệu Khám phá (EDA).
-* **Đội ngũ đa chức năng:** Emrick Larson (Tài chính) và Ursula Sayo (Vận hành).
+## 2. Tóm tắt Nhiệm vụ Giai đoạn Đầu
+Theo yêu cầu từ May Santner (Quản lý) và Chidi Ga (Senior Data Analyst), nhiệm vụ ưu tiên là kiểm tra, tổ chức và tóm tắt bộ dữ liệu ban đầu bằng Python.
+* **Bộ dữ liệu:** `waze_dataset.csv`
+* **Kích thước:** 14.999 dòng (người dùng duy nhất) và 13 cột (biến số).
 
-## 3. Các bước triển khai ban đầu (Khóa 1)
-Dựa trên cuộc họp khởi động dự án, nhóm dữ liệu sẽ thực hiện các bước chuẩn bị sau bằng ngôn ngữ **Python**:
-1. Xây dựng Dataframe từ bộ dữ liệu Waze thô.
-2. Kiểm tra và tóm tắt kiểu dữ liệu (`Dtypes`) của từng biến số.
-3. Thu thập các số liệu thống kê mô tả ban đầu để chuẩn bị cho giai đoạn Khám phá Dữ liệu (EDA).
+## 3. Đánh giá Biến Dữ liệu (Sơ bộ)
+Dữ liệu bao gồm các nhóm biến chính:
+* **Biến mục tiêu (Target):** `label` (Phân loại nhị phân: "retained" - giữ lại, hoặc "churned" - rời bỏ).
+* **Biến hành vi (Behavioral):** Số phiên truy cập (`sessions`), số lần lái xe (`drives`), số ngày hoạt động (`activity_days`), số ngày lái xe (`driving_days`).
+* **Biến cường độ (Intensity):** Tổng số km (`driven_km_drives`), tổng thời lượng (`duration_minutes_drives`).
+* **Biến loại hình:** Loại thiết bị (`device`).
 
-## 4. Rủi ro & Lưu ý
-* Cần định nghĩa rõ ràng thế nào là "Churn" trong ngữ cảnh của Waze (ví dụ: không mở app trong 30 ngày hay đã gỡ cài đặt).
-* Phải đảm bảo tính nhất quán của dữ liệu trước khi đưa vào mô hình học máy theo đúng yêu cầu từ đội ngũ phân tích cấp cao.
+## 4. Các bước tiếp theo được khuyến nghị
+1. **Tiến hành EDA:** Khám phá sâu hơn dữ liệu người dùng mới thông qua Jupyter Notebook theo đề xuất của Chidi Ga.
+2. **Kiểm tra Dữ liệu:** Xác định và xử lý các giá trị bị thiếu (missing values) và các ngoại lệ (outliers) trong các biến định lượng.
+3. **Phân tích Tương quan:** Tìm hiểu mối quan hệ giữa biến mục tiêu `label` và các biến hành vi (như `driven_km_drives` hay `activity_days`).
