@@ -13,35 +13,6 @@ Các dự án tại đây phản ánh tư duy làm việc chuyên nghiệp theo 
 * Thực hiện khám phá dữ liệu chuyên sâu (**EDA**), làm sạch và chuẩn hóa dữ liệu với Python.
 * Trực quan hóa dữ liệu trực quan, mạch lạc để giao tiếp hiệu quả với các bên liên quan (**Stakeholders**).
 * Soạn thảo **Bản tóm tắt điều hành (Executive Summary)** hỗ trợ ban lãnh đạo ra quyết định chiến lược.
-
----
-
-## 📂 Cấu trúc Kho lưu trữ
-
-```text
-Google-Advanced-Data-Analytics-Portfolio/
-│
-├── Course_1_Foundations/                         # Khóa 1: Nền tảng Khoa học Dữ liệu
-│   ├── Course_1_Summary.md                       # Tổng hợp lý thuyết: PACE, RACI, Giao tiếp chuyên nghiệp
-│   ├── Waze_PACE_Strategy.md                     # Tài liệu chiến lược PACE cho dự án Waze
-│   ├── Waze_Executive_Summary.md                 # Bản tóm tắt điều hành: Khởi động dự án Waze Churn Prediction
-│   └── Activity_Course 2 Waze project lab.ipynb  # Notebook kiểm tra & chuẩn bị dữ liệu Waze
-│
-├── Course_2_Translate_Data_into_Insights/        # Khóa 2: Chuyển đổi Dữ liệu thành Thông tin chi tiết
-│   ├── Course_2_Summary.md                       # Tổng hợp lý thuyết: EDA với Pandas, Datetime, Matplotlib
-│   ├── Unicorn_Companies_Executive_Summary.md    # Báo cáo điều hành phân tích Doanh nghiệp Kỳ lân cho Quỹ Đầu tư
-│   └── Activity_Discover what is in your dataset.ipynb # Notebook EDA hoàn chỉnh trên tập dữ liệu 1,074 Kỳ lân
-│
-├── Tai_Lieu/                                     # Tài liệu tham khảo, template & cheat sheet
-│   ├── Course1/                                  # Templates: PACE Strategy, Project Proposal, Executive Summary
-│   └── Course2/                                  # Reference Guide: Datetime Manipulation in Python
-│
-└── assets/                                       # Tài nguyên đồ họa & biểu đồ báo cáo
-    └── course_2/                                 # Biểu đồ phân tích ngành của các Công ty Kỳ lân
-        ├── max_years_to_unicorn_by_industry.png
-        └── max_valuation_by_industry.png
-```
-
 ---
 
 ## 🔬 Chi tiết các Khóa học & Dự án
