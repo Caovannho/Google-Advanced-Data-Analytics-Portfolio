@@ -42,8 +42,6 @@ Phân tích trên mẫu đại diện 50 doanh nghiệp ghi nhận sự phân h�
   * **Cybersecurity:** 19 năm.
   * **E-commerce & Direct-to-Consumer:** 18 năm.
 
-![Max Years to Unicorn by Industry](../assets/course_2/max_years_to_unicorn_by_industry.png)
-
 > **Nhận định chuyên môn:** Các ngành đòi hỏi sự kiểm duyệt pháp lý nghiêm ngặt, bằng sáng chế hoặc hạ tầng bảo mật phức tạp (như Tài chính, Y tế) đòi hỏi nguồn vốn dài hạn và lộ trình phát triển bền bỉ trước khi đạt mức định giá 1 tỷ USD. Ngược lại, các công ty AI và thương mại tiêu dùng có thể mở rộng quy mô người dùng rất nhanh.
 
 ---
@@ -54,8 +52,6 @@ Khi xem xét mức định giá cao nhất đạt được theo ngành:
 * **Fintech** xếp vị trí thứ hai với định giá cao nhất đạt **10 tỷ USD**.
 * Các ngành công nghệ viễn thông và phần mềm Internet: **Mobile & Telecommunications** ($7B), **Internet Software & Services** ($5B).
 * Các nhóm ngành truyền thống trong mẫu (Auto, Consumer & Retail) duy trì mức định giá đỉnh khiêm tốn hơn ($1B).
-
-![Max Valuation by Industry](../assets/course_2/max_valuation_by_industry.png)
 
 > **Nhận định chuyên môn:** Mặc dù AI mất ít thời gian hơn để trở thành kỳ lân so với Fintech, nhưng cả hai đều là những "thỏi nam châm" thu hút dòng vốn lớn nhất và đem lại định giá vốn hóa bứt phá vượt trội.
 
