@@ -18,15 +18,15 @@ Các dự án tại đây phản ánh tư duy làm việc chuyên nghiệp theo 
 ## 🔬 Chi tiết các Khóa học & Dự án
 
 ### 🔹 Khóa 1: Foundations of Data Science
-* **Tài liệu lý thuyết:** [Course_1_Summary.md](file:///c:/HOCTAP_VALAMVIEC/Hoc%20Tap/Google-Advanced-Data-Analytics-Portfolio/Course_1_Foundations/Course_1_Summary.md)
+* **Tài liệu lý thuyết:** [Course_1_Summary.md](Course_1_Foundations/Theory/Course_1_Summary.md)
 * **Dự án thực hành (Waze User Churn Project):**
   * **Bối cảnh:** Phát triển giải pháp dự đoán tỷ lệ người dùng rời bỏ ứng dụng điều hướng Waze hàng tháng để hỗ trợ giữ chân người dùng.
-  * **Tài liệu chiến lược PACE:** [Waze_PACE_Strategy.md](file:///c:/HOCTAP_VALAMVIEC/Hoc%20Tap/Google-Advanced-Data-Analytics-Portfolio/Course_1_Foundations/Waze_PACE_Strategy.md)
-  * **Báo cáo điều hành:** [Waze_Executive_Summary.md](file:///c:/HOCTAP_VALAMVIEC/Hoc%20Tap/Google-Advanced-Data-Analytics-Portfolio/Course_1_Foundations/Waze_Executive_Summary.md)
-  * **Mã nguồn phân tích:** [Activity_Course 2 Waze project lab.ipynb](file:///c:/HOCTAP_VALAMVIEC/Hoc%20Tap/Google-Advanced-Data-Analytics-Portfolio/Course_1_Foundations/Activity_Course%202%20Waze%20project%20lab.ipynb)
+  * **Tài liệu chiến lược PACE:** [Waze_PACE_Strategy.md](Course_1_Foundations/Project/Waze_PACE_Strategy.md)
+  * **Báo cáo điều hành:** [Waze_Executive_Summary.md](Course_1_Foundations/Project/Waze_Executive_Summary.md)
+  * **Mã nguồn phân tích:** [Activity_Course 2 Waze project lab.ipynb](Course_1_Foundations/Project/Activity_Course%202%20Waze%20project%20lab.ipynb)
 
 ### 🔹 Khóa 2: Translate Data into Insights (Python for EDA)
-* **Tài liệu lý thuyết:** [Course_2_Summary.md](file:///c:/HOCTAP_VALAMVIEC/Hoc%20Tap/Google-Advanced-Data-Analytics-Portfolio/Course_2_Translate_Data_into_Insights/Course_2_Summary.md)
+* **Tài liệu lý thuyết:** [Course_2_Summary.md](Course_2_Translate_Data_into_Insights/Note/Course_2_Summary.md)
 * **Dự án thực hành (Unicorn Companies Exploratory Analysis):**
   * **Bối cảnh:** Phân tích dữ liệu 1,074 doanh nghiệp kỳ lân trên toàn cầu để tư vấn chiến lược rót vốn cho Quỹ đầu tư mạo hiểm (*Investing Firm*).
   * **Kỹ năng thực hiện:** 
@@ -34,8 +34,8 @@ Các dự án tại đây phản ánh tư duy làm việc chuyên nghiệp theo 
     * Chuẩn hóa dữ liệu ngày tháng với `pd.to_datetime()` và trích xuất năm (`.dt.year`) để tính thời gian đạt kỳ lân.
     * Làm sạch chuỗi định dạng tiền tệ (`$`, `B`) sang dạng số thực (`float`).
     * Trực quan hóa so sánh đa chiều giữa các ngành nghề bằng Matplotlib.
-  * **Báo cáo điều hành:** [Unicorn_Companies_Executive_Summary.md](file:///c:/HOCTAP_VALAMVIEC/Hoc%20Tap/Google-Advanced-Data-Analytics-Portfolio/Course_2_Translate_Data_into_Insights/Unicorn_Companies_Executive_Summary.md)
-  * **Mã nguồn phân tích:** [Activity_Discover what is in your dataset.ipynb](file:///c:/HOCTAP_VALAMVIEC/Hoc%20Tap/Google-Advanced-Data-Analytics-Portfolio/Course_2_Translate_Data_into_Insights/Activity_Discover%20what%20is%20in%20your%20dataset.ipynb)
+  * **Báo cáo điều hành:** [Unicorn_Companies_Executive_Summary.md](Course_2_Translate_Data_into_Insights/Theory/Unicorn_Companies_Executive_Summary.md)
+  * **Mã nguồn phân tích:** [Activity_Discover what is in your dataset.ipynb](Course_2_Translate_Data_into_Insights/Theory/Activity_Discover%20what%20is%20in%20your%20dataset.ipynb)
 
 ---
 
